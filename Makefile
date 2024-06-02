@@ -2,12 +2,12 @@ CXX		  := g++
 CXX_FLAGS := -Wall -Wextra -std=c++17 -ggdb -fopenmp -pthread
 
 BIN		:= bin
-SRC		:= src
+SRC		:= openmp
 INCLUDE	:= include
 LIB		:= lib
 
 LIBRARIES	:=
-EXECUTABLE	:= openmp
+EXECUTABLE	:= vector_addition
 
 
 all: $(BIN)/$(EXECUTABLE)
